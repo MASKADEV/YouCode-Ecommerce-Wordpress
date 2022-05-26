@@ -1,0 +1,1 @@
+<!-- ATOSPP version: <?php echo WPAUTOTERMS_VERSION; ?>, <?php echo $shortcode; ?> -->

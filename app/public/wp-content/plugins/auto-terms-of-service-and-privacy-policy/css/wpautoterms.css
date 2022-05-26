@@ -1,0 +1,34 @@
+.wpautoterms-footer {
+    display:block;
+    width:100%;
+    position:relative;
+    z-index:10000002;
+}
+
+.wpautoterms-footer a:hover {
+    text-decoration: underline;
+}
+
+#wpautoterms-top-fixed-container {
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+#wpautoterms-bottom-fixed-container {
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+#wpautoterms-top-static-container {
+    width:100%;
+    position:relative;
+    z-index:10000002;
+}
+
+#wpautoterms-bottom-static-container {
+    width:100%;
+    position:relative;
+    z-index:10000002;
+}

@@ -1,0 +1,483 @@
+[26-May-2022 10:16:52 UTC] WordPress database error Table 'local.wp_woocommerce_sessions' doesn't exist for query SELECT session_value FROM wp_woocommerce_sessions WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, wc_load_cart, WooCommerce->initialize_session, WC_Session_Handler->init, WC_Session_Handler->init_session_cookie, WC_Session_Handler->get_session_data, WC_Session_Handler->get_session
+[26-May-2022 10:16:52 UTC] WordPress database error Table 'local.wp_wc_webhooks' doesn't exist for query SELECT webhook_id
+				FROM wp_wc_webhooks
+				WHERE 1=1
+				AND `status` = 'active'
+				
+				
+				
+				
+				
+				ORDER BY webhook_id DESC made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, WooCommerce->load_webhooks, wc_load_webhooks, WC_Data_Store->__call, WC_Webhook_Data_Store->get_webhooks_ids, WC_Webhook_Data_Store->search_webhooks
+[26-May-2022 10:16:52 UTC] WordPress database error Table 'local.wp_woocommerce_attribute_taxonomies' doesn't exist for query SELECT * FROM wp_woocommerce_attribute_taxonomies WHERE attribute_name != '' ORDER BY attribute_name ASC; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Types::register_taxonomies, wc_get_attribute_taxonomies
+[26-May-2022 10:30:26 UTC] PHP Warning:  Undefined array key "default" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/complianz-gdpr/class-document.php on line 1904
+[26-May-2022 10:30:26 UTC] PHP Stack trace:
+[26-May-2022 10:30:26 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-admin/admin.php:0
+[26-May-2022 10:30:26 UTC] PHP   2. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-admin/admin.php:175
+[26-May-2022 10:30:26 UTC] PHP   3. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 10:30:26 UTC] PHP   4. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:30:26 UTC] PHP   5. cmplz_document->assign_documents_to_menu() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:51:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:51:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:51:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:51:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:52:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:52:21 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:53:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:53:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:54:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:54:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:56:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:56:28 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:56:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:56:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:58:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:58:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:58:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:58:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:58:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:58:58 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:59:21 UTC] PHP Warning:  Undefined array key "publishable_key" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/class-wc-rest-stripe-account-keys-controller.php on line 196
+[26-May-2022 10:59:21 UTC] PHP Stack trace:
+[26-May-2022 10:59:21 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 10:59:21 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 10:59:21 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 10:59:21 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 10:59:21 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 10:59:21 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 10:59:21 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 10:59:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:59:21 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:59:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 10:59:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 10:59:21 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 10:59:21 UTC] PHP  13. WC_REST_Stripe_Account_Keys_Controller->set_account_keys() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 10:59:21 UTC] PHP Warning:  Undefined array key "secret_key" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/class-wc-rest-stripe-account-keys-controller.php on line 197
+[26-May-2022 10:59:21 UTC] PHP Stack trace:
+[26-May-2022 10:59:21 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 10:59:21 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 10:59:21 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 10:59:21 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 10:59:21 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 10:59:21 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 10:59:21 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 10:59:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:59:21 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:59:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 10:59:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 10:59:21 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 10:59:21 UTC] PHP  13. WC_REST_Stripe_Account_Keys_Controller->set_account_keys() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 10:59:21 UTC] PHP Warning:  Undefined array key "test_publishable_key" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/class-wc-rest-stripe-account-keys-controller.php on line 198
+[26-May-2022 10:59:21 UTC] PHP Stack trace:
+[26-May-2022 10:59:21 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 10:59:21 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 10:59:21 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 10:59:21 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 10:59:21 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 10:59:21 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 10:59:21 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 10:59:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:59:21 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:59:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 10:59:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 10:59:21 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 10:59:21 UTC] PHP  13. WC_REST_Stripe_Account_Keys_Controller->set_account_keys() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 10:59:21 UTC] PHP Warning:  Undefined array key "test_secret_key" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/class-wc-rest-stripe-account-keys-controller.php on line 199
+[26-May-2022 10:59:21 UTC] PHP Stack trace:
+[26-May-2022 10:59:21 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 10:59:21 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 10:59:21 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 10:59:21 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 10:59:21 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 10:59:21 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 10:59:21 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 10:59:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:59:21 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:59:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 10:59:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 10:59:21 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 10:59:21 UTC] PHP  13. WC_REST_Stripe_Account_Keys_Controller->set_account_keys() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 10:59:21 UTC] PHP Warning:  Undefined array key "publishable_key" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/class-wc-rest-stripe-account-keys-controller.php on line 206
+[26-May-2022 10:59:21 UTC] PHP Stack trace:
+[26-May-2022 10:59:21 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 10:59:21 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 10:59:21 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 10:59:21 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 10:59:21 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 10:59:21 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 10:59:21 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 10:59:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:59:21 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:59:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 10:59:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 10:59:21 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 10:59:21 UTC] PHP  13. WC_REST_Stripe_Account_Keys_Controller->set_account_keys() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 10:59:21 UTC] PHP Warning:  Undefined array key "secret_key" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/class-wc-rest-stripe-account-keys-controller.php on line 207
+[26-May-2022 10:59:21 UTC] PHP Stack trace:
+[26-May-2022 10:59:21 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 10:59:21 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 10:59:21 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 10:59:21 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 10:59:21 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 10:59:21 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 10:59:21 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 10:59:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:59:21 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:59:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 10:59:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 10:59:21 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 10:59:21 UTC] PHP  13. WC_REST_Stripe_Account_Keys_Controller->set_account_keys() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 10:59:21 UTC] PHP Warning:  Undefined array key "webhook_secret" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce-gateway-stripe/includes/admin/class-wc-rest-stripe-account-keys-controller.php on line 208
+[26-May-2022 10:59:21 UTC] PHP Stack trace:
+[26-May-2022 10:59:21 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 10:59:21 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 10:59:21 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 10:59:21 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 10:59:21 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 10:59:21 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 10:59:21 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 10:59:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 10:59:21 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 10:59:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 10:59:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 10:59:21 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 10:59:21 UTC] PHP  13. WC_REST_Stripe_Account_Keys_Controller->set_account_keys() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 10:59:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:59:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:59:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 10:59:44 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:00:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:00:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:00:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:00:46 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:01:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:01:10 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:02:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 11:02:08 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:03:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:03:55 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:04:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:04:11 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:05:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:05:40 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:08:03 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:08:03 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:08:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:08:39 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:11:40 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:11:40 UTC] PHP Stack trace:
+[26-May-2022 13:11:40 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:11:40 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:11:40 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:11:40 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:11:40 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:11:40 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:11:40 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:11:40 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:11:40 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:11:40 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:11:40 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:11:40 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:11:40 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:11:40 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:11:40 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:11:40 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:11:40 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:11:40 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:11:40 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:11:40 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:11:40 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:11:40 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:11:40 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:11:40 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:11:40 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:11:40 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:11:40 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:02 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:12:02 UTC] PHP Stack trace:
+[26-May-2022 13:12:02 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:12:02 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:12:02 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:12:02 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:12:02 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:12:02 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:12:02 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:12:02 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:02 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:02 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:12:02 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:12:02 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:12:02 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:12:02 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:12:02 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:12:02 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:12:02 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:12:02 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:02 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:02 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:12:02 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:12:02 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:02 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:02 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:12:02 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:12:02 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:02 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:56 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:12:56 UTC] PHP Stack trace:
+[26-May-2022 13:12:56 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:12:56 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:12:56 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:12:56 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:12:56 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:12:56 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:12:56 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:12:56 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:56 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:56 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:12:56 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:12:56 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:12:56 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:12:56 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:12:56 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:12:56 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:12:56 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:12:56 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:56 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:56 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:12:56 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:12:56 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:56 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:12:56 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:12:56 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:12:56 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:12:56 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:22 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:13:22 UTC] PHP Stack trace:
+[26-May-2022 13:13:22 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:13:22 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:13:22 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:13:22 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:13:22 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:13:22 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:13:22 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:13:22 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:22 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:22 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:13:22 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:13:22 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:13:22 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:13:22 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:13:22 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:13:22 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:13:22 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:22 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:22 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:22 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:13:22 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:22 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:22 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:22 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:13:22 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:22 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:22 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:27 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:13:27 UTC] PHP Stack trace:
+[26-May-2022 13:13:27 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:13:27 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:13:27 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:13:27 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:13:27 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:13:27 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:13:27 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:13:27 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:27 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:27 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:13:27 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:13:27 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:13:27 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:13:27 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:13:27 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:13:27 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:13:27 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:27 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:27 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:27 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:13:27 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:27 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:27 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:27 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:13:27 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:27 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:27 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:37 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:13:37 UTC] PHP Stack trace:
+[26-May-2022 13:13:37 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:13:37 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:13:37 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:13:37 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:13:37 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:13:37 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:13:37 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:13:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:37 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:37 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:13:37 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:13:37 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:13:37 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:13:37 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:13:37 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:13:37 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:13:37 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:37 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:37 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:37 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:13:37 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:37 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:37 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:37 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:13:37 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:37 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:37 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:43 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:13:43 UTC] PHP Stack trace:
+[26-May-2022 13:13:43 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:13:43 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:13:43 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:13:43 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:13:43 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:13:43 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:13:43 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:13:43 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:43 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:43 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:13:43 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:13:43 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:13:43 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:13:43 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:13:43 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:13:43 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:13:43 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:43 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:43 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:43 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:13:43 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:43 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:43 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:43 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:13:43 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:43 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:43 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:49 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:13:49 UTC] PHP Stack trace:
+[26-May-2022 13:13:49 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:13:49 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:13:49 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:13:49 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:13:49 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:13:49 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:13:49 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:13:49 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:49 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:49 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:13:49 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:13:49 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:13:49 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:13:49 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:13:49 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:13:49 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:13:49 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:49 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:49 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:49 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:13:49 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:49 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:49 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:49 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:13:49 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:49 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:49 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:54 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/athemes-blocks/classes/class-athemes-blocks-init.php on line 121
+[26-May-2022 13:13:54 UTC] PHP Stack trace:
+[26-May-2022 13:13:54 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:0
+[26-May-2022 13:13:54 UTC] PHP   2. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/index.php:17
+[26-May-2022 13:13:54 UTC] PHP   3. wp() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-blog-header.php:16
+[26-May-2022 13:13:54 UTC] PHP   4. WP->main() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/functions.php:1330
+[26-May-2022 13:13:54 UTC] PHP   5. WP->parse_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:770
+[26-May-2022 13:13:54 UTC] PHP   6. do_action_ref_array() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp.php:398
+[26-May-2022 13:13:54 UTC] PHP   7. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:524
+[26-May-2022 13:13:54 UTC] PHP   8. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:54 UTC] PHP   9. rest_api_loaded() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:54 UTC] PHP  10. WP_REST_Server->serve_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api.php:394
+[26-May-2022 13:13:54 UTC] PHP  11. WP_REST_Server->dispatch() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:414
+[26-May-2022 13:13:54 UTC] PHP  12. WP_REST_Server->respond_to_request() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:990
+[26-May-2022 13:13:54 UTC] PHP  13. WP_REST_Widget_Types_Controller->render() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/class-wp-rest-server.php:1143
+[26-May-2022 13:13:54 UTC] PHP  14. WP_REST_Widget_Types_Controller->render_legacy_widget_preview_iframe() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:598
+[26-May-2022 13:13:54 UTC] PHP  15. wp_head() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/rest-api/endpoints/class-wp-rest-widget-types-controller.php:626
+[26-May-2022 13:13:54 UTC] PHP  16. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:3042
+[26-May-2022 13:13:54 UTC] PHP  17. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:54 UTC] PHP  18. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:54 UTC] PHP  19. wp_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:54 UTC] PHP  20. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2156
+[26-May-2022 13:13:54 UTC] PHP  21. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:54 UTC] PHP  22. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:54 UTC] PHP  23. wp_common_block_scripts_and_styles() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:13:54 UTC] PHP  24. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/script-loader.php:2352
+[26-May-2022 13:13:54 UTC] PHP  25. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:13:54 UTC] PHP  26. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:13:54 UTC] PHP  27. ATBLOCKS_Init->athemes_blocks_enqueue_scripts() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:21:40 UTC] PHP Warning:  Undefined array key "product" in /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/plugins/woocommerce/includes/wc-template-functions.php on line 1769
+[26-May-2022 13:21:40 UTC] PHP Stack trace:
+[26-May-2022 13:21:40 UTC] PHP   1. {main}() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-admin/admin-ajax.php:0
+[26-May-2022 13:21:40 UTC] PHP   2. do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-admin/admin-ajax.php:187
+[26-May-2022 13:21:40 UTC] PHP   3. WP_Hook->do_action() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/plugin.php:476
+[26-May-2022 13:21:40 UTC] PHP   4. WP_Hook->apply_filters() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:331
+[26-May-2022 13:21:40 UTC] PHP   5. botiga_quick_view_content_callback_function() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/class-wp-hook.php:307
+[26-May-2022 13:21:40 UTC] PHP   6. botiga_get_template_part() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/themes/botiga/inc/woocommerce/features/quick-view.php:149
+[26-May-2022 13:21:40 UTC] PHP   7. get_template_part() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/themes/botiga/functions.php:392
+[26-May-2022 13:21:40 UTC] PHP   8. locate_template() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/general-template.php:204
+[26-May-2022 13:21:40 UTC] PHP   9. load_template() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/template.php:716
+[26-May-2022 13:21:40 UTC] PHP  10. require() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-includes/template.php:772
+[26-May-2022 13:21:40 UTC] PHP  11. botiga_simple_add_to_cart() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/themes/botiga/template-parts/content-quick-view.php:112
+[26-May-2022 13:21:40 UTC] PHP  12. woocommerce_quantity_input() /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/themes/botiga/inc/woocommerce/woocommerce-template-functions.php:83
+[26-May-2022 13:33:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:33:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:34:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:34:30 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:35:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:35:36 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:36:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:36:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:37:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:37:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:37:20 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:37:20 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:37:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:37:48 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:38:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:38:24 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:39:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:39:05 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:39:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:39:29 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:40:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:40:00 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:40:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:40:26 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:40:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:40:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:41:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:41:43 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:42:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:42:07 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:42:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:42:50 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:43:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:43:32 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:43:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:43:57 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:49:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:49:17 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:49:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 13:49:42 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 14:03:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.
+[26-May-2022 14:03:06 UTC] The Automattic\WooCommerce\Admin\API\Options::get_options function is deprecated since version 3.1.

@@ -1,0 +1,69 @@
+.wpautoterms-help-page-container {
+    display: block;
+}
+
+.wpautoterms-help-page-help {
+
+}
+
+.wpautoterms-help-page-no-answer-text {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    display: inline-block;
+}
+.wpautoterms-help-page-form-button {
+    margin: 15px 0 0 0;
+}
+.wpautoterms-help-page-form {
+    display: none;
+    
+    background: #FFF;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    color: #555;
+    font-size: 16px;
+    padding: 5px 15px;
+    margin: 10px 0 0 0;
+}
+.wpautoterms-help-page-site-info-notice {
+    
+}
+.wpautoterms-help-page-form textarea {
+    resize: vertical;
+    display: block;
+    width: 100%;
+    min-height: 150px;
+}
+
+h3 small.wpautoterms-small {
+    font-weight: normal;
+}
+
+.wpautoterms-help-page-container .ui-accordion,
+.wpautoterms-help-page-container .ui-accordion p,
+.wpautoterms-help-page-container .ui-accordion li {
+    font-size: 16px;
+    line-height: 24px;
+}
+.wpautoterms-help-page-container .ui-accordion .ui-accordion-header {
+    background: #FFF;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    color: #555;
+    font-size: 16px;
+}
+.wpautoterms-help-page-container .ui-accordion .ui-accordion-header-active {
+    background: #f9f9f9;
+}
+
+.wpautoterms-help-page-container .ui-accordion .ui-accordion-header-icon {
+    margin-right: 10px;
+}
+
+.wpautoterms-help-page-container .question-answer ul {
+  margin: 0 0 0 20px;
+  padding: 10px 0;
+  list-style: disc;
+}

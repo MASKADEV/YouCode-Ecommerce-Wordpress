@@ -1,0 +1,1 @@
+[Thu May 26 11:16:55.402507 2022] [access_compat:error] [pid 11752:tid 123145483038720] [client ::1:65342] AH01797: client denied by server configuration: /Users/mac/Desktop/ecommerce_wordpress/app/public/wp-content/uploads/woocommerce_uploads/, referer: http://localhost:10004/wp-content/uploads/woocommerce_uploads/

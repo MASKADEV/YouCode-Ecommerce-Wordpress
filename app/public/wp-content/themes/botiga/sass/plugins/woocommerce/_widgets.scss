@@ -1,0 +1,121 @@
+/**
+ * WooCommerce Price Filter
+ */
+.widget_price_filter {
+
+	.price_slider {
+		margin-bottom: 1.5em;
+	}
+
+	.price_slider_amount {
+		display: flex;
+		text-align: right;
+		line-height: 2.4;
+		justify-content: space-between;
+
+		.price_label {
+			width: 100%;
+		}
+
+		.button {
+			padding-top: 5px !important;
+			padding-bottom: 5px !important;
+		}
+	}
+
+	.ui-slider {
+		position: relative;
+		text-align: left;
+	}
+
+	.ui-slider .ui-slider-handle {
+		position: absolute;
+		z-index: 2;
+		width: 1em;
+		height: 1em;
+		cursor: ew-resize;
+		outline: none;
+		background: #fff;
+		border: 2px solid $color__primary;
+		box-sizing: border-box;
+		margin-top: -7px;
+		opacity: 1;
+		border-radius: 50%;
+
+		&:last-child {
+			margin-left: -1em;
+		}
+
+		&:hover,
+		&.ui-state-active {
+			box-shadow: 0 0 0 0.25em rgba(#000, 0.1);
+		}
+	}
+
+	.ui-slider .ui-slider-range {
+		position: absolute;
+		z-index: 1;
+		display: block;
+		border: 0;
+		background: $color__primary;
+	}
+
+	.price_slider_wrapper .ui-widget-content {
+		background: rgba(0, 0, 0, 0.1);
+	}
+
+	.ui-slider-horizontal {
+		height: 2px;
+	}
+
+	.ui-slider-horizontal .ui-slider-range {
+		height: 100%;
+	}
+}
+
+.widget-area,
+.widget-column {
+	.widget_products,
+	.widget_top_rated_products,
+	.widget_recently_viewed_products,
+	.widget_recent_reviews {
+		li {
+			margin-bottom: 15px;
+			a {
+				display: flex;
+				flex-wrap: wrap;
+				margin-bottom: 10px;
+			}
+			img {
+				flex: 0 0 10%;
+				max-width: 10%;
+			}
+			.product-title {
+				flex: 0 0 90%;
+				max-width: 90%;
+				padding-left: 15px;
+			}
+			.reviewer,
+			.amount,
+			.star-rating {
+				margin-left: calc(10% + 15px);
+			}
+			ins .amount {
+				margin-left: 0 !important;
+			}
+			del,ins {
+				background: transparent;
+			}
+		}
+	}
+}
+
+.widget_rating_filter {
+	a {
+		display: flex;
+
+		.star-rating {
+			margin-left: 0;
+		}
+	}
+}

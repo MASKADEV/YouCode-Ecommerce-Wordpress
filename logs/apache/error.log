@@ -1,0 +1,3 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using MacBook-Pro-de-MBP.local. Set the 'ServerName' directive globally to suppress this message
+[Thu May 26 11:13:42.787040 2022] [mpm_event:notice] [pid 11426:tid 4563858944] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Thu May 26 11:13:42.787506 2022] [core:notice] [pid 11426:tid 4563858944] AH00094: Command line: '/Users/mac/Library/Application Support/Local/lightning-services/apache-2.4.43+7/bin/darwin/bin/httpd -D FOREGROUND -f /Users/mac/Library/Application Support/Local/run/7deVnIDsB/conf/apache/apache2.conf'

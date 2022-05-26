@@ -1,0 +1,287 @@
+# Copyright (C) 2021 aThemes
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: aThemes Blocks 1.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/athemes-blocks\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-07-28T17:07:34+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: athemes-blocks\n"
+
+#. Plugin Name of the plugin
+msgid "aThemes Blocks"
+msgstr ""
+
+#. Description of the plugin
+msgid "aThemes Blocks is a Gutenberg plugin extending the WordPress editor with awesome blocks."
+msgstr ""
+
+#. Author of the plugin
+msgid "aThemes"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://athemes.com"
+msgstr ""
+
+#: athemes-blocks.php:36
+msgid "aThemes Blocks plugin requires PHP version %s+. Please update your server PHP version to get the plugin working."
+msgstr ""
+
+#: athemes-blocks.php:46
+msgid "aThemes Blocks plugin requires WordPress version %s+. Please update the WordPress version to get the plugin working."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:25
+msgid "Container Block"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:27
+msgid "A style wrapper to combine different blocks in a single row."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:30
+msgid "wrapper"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:31
+msgid "athemes"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:32
+msgid "container"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:33
+msgid "section"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:46
+msgid "Lorem ipsum dolor"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/index.js:53
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id tempus metus. Donec vestibulum, purus at eleifend maximus."
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:159
+#: src/components/global-advanced-controls/index.js:24
+msgid "General"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:167
+#: src/block/container/edit.js:175
+#: src/block/container/edit.js:183
+msgid "Content Width"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:192
+msgid "Border Radius"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:204
+msgid "Moves the block to backward or forward"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:206
+msgid "Z-index"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:219
+msgid "Content Alignment"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:314
+msgid "Spacing"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:323
+msgid "Paddings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/block/container/edit.js:502
+msgid "Margins"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/panel-tabs-buttons/index.js:25
+msgid "Settings"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/panel-tabs-buttons/index.js:31
+msgid "Style"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/panel-tabs-buttons/index.js:37
+msgid "Advanced"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/responsive-controls/index.js:141
+msgid "Units"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/responsive-controls/index.js:155
+msgid "Device"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/advanced-control/index.js:28
+msgid "Element ID"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:36
+msgid "Background"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:42
+msgid "None"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:48
+msgid "Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:54
+msgid "Gradient"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:60
+msgid "Image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:65
+msgid "Background Color"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:73
+msgid "Gradient Color #1"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:78
+msgid "Gradient Color #2"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:83
+msgid "Degree"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:92
+msgid "Color #1 position"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:101
+msgid "Color #2 position"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:127
+#: src/components/background-control/index.js:134
+msgid "Select a image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:134
+msgid "Replace image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:150
+msgid "Remove Image"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:157
+msgid "Background Image Type"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:161
+msgid "Contain"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:162
+msgid "Cover"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:166
+msgid "Background Position"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:172
+msgid "Top"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:173
+#: src/components/background-control/index.js:178
+msgid "Center"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:174
+msgid "Bottom"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:179
+msgid "Left"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:180
+msgid "Right"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:187
+msgid "Background Effect"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:191
+msgid "Fixed / Parallax"
+msgstr ""
+
+#: dist/blocks.build.js:1
+#: src/components/background-control/index.js:192
+msgid "Scroll"
+msgstr ""
